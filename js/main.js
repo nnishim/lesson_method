@@ -167,16 +167,16 @@ const tasks =   [
 // console.log(filterTasks);
 
 // let filterTasks = tasks.filter((task) => {
-//     return task.title === `UI`;
+//     return task.title.includes(`UI`);
 // });
 
 // console.log(filterTasks);
 
 
-let filterTasks = tasks.filter((task) => {
-    return task.category === `Backend` && task.timeSpent === 4;
-}).reduce((acc, task) => {
-        return acc + task;
-}, 0);
+// let filterTasks = tasks.filter((task) => {
+//     return task.category === `Backend` && task.timeSpent === 4;
+// }).reduce((acc, task) => {
+//         return acc + task;
+// }, 0);
 
-console.log(filterTasks);
+// console.log(filterTasks);
