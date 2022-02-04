@@ -180,3 +180,18 @@ const tasks =   [
 // }, 0);
 
 // console.log(filterTasks);
+
+// let filterObject = tasks.filter((task) => {
+//     return task.
+// })
+
+// let filterObject = tasks.filter((task) => {
+//     return task.title && task.category;
+// }).map((task) => {
+//     return {
+//         title: task.title,
+//         category: task.category,
+//     }
+// });
+
+// console.log(filterObject);
